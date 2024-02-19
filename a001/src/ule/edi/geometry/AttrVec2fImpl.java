@@ -43,10 +43,5 @@ public class AttrVec2fImpl extends AbstractVec2Impl {
 		}else{
 			throw new java.lang.IllegalArgumentException();
 		}
-		
-		
 	}
-
-	
-	
 }
