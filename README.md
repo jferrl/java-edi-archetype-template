@@ -2,9 +2,11 @@
 
 This is a monorepo for Java practices for [EDI](https://www.unileon.es/estudiantes/oferta-academica/grados/grado-en-ingenieria-informatica/plan-estudios?id=0709018&cursoa=2023) subject of the degree [Grado en Ingeniería Informática](https://www.unileon.es/estudios/grado/ingenieria-informatica) of the [University of León](https://www.unileon.es/).
 
-This Repository is a monorepo for the practices of the subject "EDI" of the degree "Grado en Ingeniería Informática" of the University of León.
+This repository tends to be a template for Java projects, with a monorepo structure, and a CI/CD pipeline.
 
-## Install maven
+## Requirements
+
+### Install maven
 
 ### Ubuntu
 
