@@ -12,7 +12,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '1.8'
+        java-version: '8.0.402+6'
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
