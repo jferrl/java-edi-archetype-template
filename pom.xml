@@ -3,14 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
          
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
-    <artifactId>java-monorepo</artifactId>
+    <groupId>ule.edi</groupId>
+    <artifactId>geometry</artifactId>
     <version>1.0.0</version>
-    <packaging>pom</packaging>
-    
-    <modules>
-        <module>a001</module>
-    </modules>
+    <packaging>jar</packaging>
     
     <properties>
         <java.version>1.8</java.version>
@@ -31,6 +27,7 @@
     </dependencies>
 
     <build>
+        <testSourceDirectory>src/main/java/ule/edi/geometry</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
