@@ -4,6 +4,10 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  statuses: write
+  checks: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,6 +30,7 @@ jobs:
       uses: dorny/test-reporter@v1
       if: always()
       with:
+        artifact: /test-results-(.*)/
         name: Maven Tests
         path: target/surefire-reports/*.xml
         reporter: java-junit
