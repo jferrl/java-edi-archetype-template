@@ -12,8 +12,8 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '8.0.402+6'
-        distribution: 'adopt'
+        java-version: '21'
+        distribution: 'temurin'
         cache: maven
     
     - name: Build with Maven
